@@ -1,0 +1,17 @@
+.liste-nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+}
+.liste-nav li{
+    margin: 5px 35px;
+}
+.liste-nav li a{
+    text-decoration: none;
+    color: white;
+}
+.liste-nav li a:hover{
+    color: var(--darkRed);
+}
