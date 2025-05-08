@@ -85,8 +85,11 @@ img{
 }
 /* #endregion */
 /* #region HERO IMAGES */
-.background-image{
+.header-main{
     position: relative;
+}
+.background-image{
+    /* position: relative; */
     background-size: cover;
 }
 .logo-image{
@@ -151,7 +154,7 @@ img{
     margin-bottom: 20px;
 }
 #favoriteParent {
-    width: 80%;
+    /* width: 80%; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
