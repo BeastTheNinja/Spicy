@@ -101,7 +101,7 @@ img{
 /* #region OM SPICY */
 .sectionOmSpicy h2{
     font-size: 4rem;
-    margin-left: 50px;
+    margin-left: 40px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
@@ -109,6 +109,11 @@ img{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+}
+.articleOmSpicy{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
 .articleOmSpicy footer{
     display: flex;
