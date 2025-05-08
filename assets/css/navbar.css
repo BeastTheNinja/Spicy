@@ -1,13 +1,12 @@
 .liste-nav{
     display: flex;
-    /* flex-direction: column; */
     list-style: none;
     margin: 0;
     padding: 0;
     background-color: var(--black);
 }
 .liste-nav li{
-    margin: 5px 35px;
+    margin: 0 30px;
 }
 .liste-nav li a{
     text-decoration: none;

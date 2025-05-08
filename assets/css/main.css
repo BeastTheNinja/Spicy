@@ -191,8 +191,10 @@ img{
 /* #region GLOBAL FOOTER */
 .footer-main{
     display: flex;
+    position: relative;
     justify-content: space-between;
     background-color: var(--gray);
+
 }
 .blue{
     color: var(--lightBlue);
@@ -201,7 +203,6 @@ img{
     color: var(--lightRed);
 }
 .contact-info{
-    position: relative;
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
@@ -209,6 +210,7 @@ img{
     list-style: none;
     margin: 0;
     padding: 0;
+    
 }
 .contact-info a{
     text-decoration: none;
@@ -219,11 +221,11 @@ img{
     flex-direction: row;
     list-style: none;
     gap: 10px;
-    margin: 10px 0 0 0;
+    margin: 0;
     padding: 0;
-    position: absolute;
-    bottom: -335%;
-    left: 0;
+    padding-right: 20px;
+    padding-top: 5rem;
+    
 }
 .social-media img{
     width: 50px;
@@ -232,5 +234,12 @@ img{
 }
 .social-media img:hover {
     transform: scale(1.1);
+}
+iframe{
+    width: 100%;
+    height: 88%;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 /* #endregion */
